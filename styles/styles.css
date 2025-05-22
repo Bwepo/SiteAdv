@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding-top: 70px; /* altura exata do novo header fixo */
@@ -82,7 +85,7 @@ nav ul li a {
 }
 
 .hero {
-  padding: 80px 20px;
+  padding: 20px;
   background-color: #f9f5ed;
 }
 
@@ -92,14 +95,19 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* <--- alterado de space-between para center */
   gap: 40px;
+  text-align: center; /* opcional: centraliza o texto quando só o texto está visível */
 }
+
 
 .hero-text {
   flex: 1;
   min-width: 300px;
+  max-width: 600px;
+  text-align: center;
 }
+
 
 .card-areas {
   flex: 1;
@@ -129,7 +137,9 @@ nav ul li a {
   display: flex;
   justify-content: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
+
 
 .btn-primary {
   background-color: #b1973c;
@@ -339,6 +349,20 @@ nav ul li a {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
+.pub-card .thumb {
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pub-card .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 .pub-card {
   background: #fff;
@@ -467,7 +491,7 @@ nav ul li a {
 }
 
 .footer-logo {
-  width: 60px;
+  width: 120px;
   margin-bottom: 10px;
 }
 
@@ -484,7 +508,7 @@ nav ul li a {
 
 .footer-col h4 {
   font-size: 16px;
-  color: #f5d86a;
+  color: #9c8945;
   margin-bottom: 10px;
 }
 

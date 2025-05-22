@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mariana Lima - Advogada</title>
+  <title>Mariana Lima - Advogacia</title>
+  <link rel="icon" type="image/png" href="images/logotransp.png" />
   <link rel="stylesheet" href="styles/styles.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,11 +23,12 @@
 
     <nav>
   <ul>
-    <li><a href="index.html" class="ativo">Início</a></li>
-    <li><a href="sobre.html">Sobre</a></li>
-    <li><a href="servicos.html">Serviços</a></li>
-    <li><a href="publicacoes.html">Publicações</a></li>
-    <li><a href="contato.html">Contato</a></li>
+    <li><a href="#inicio" class="ativo">Início</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#publicacoes">Publicações</a></li>
+    <li><a href="#contato">Contato</a></li>
+
   </ul>
 </nav>
 
@@ -38,7 +40,7 @@
 </header>
 
 
- <section class="hero">
+ <section class="hero" id="inicio">
   <div class="hero-container">
     <div class="hero-text">
       <h2>Mariana Lima</h2>
@@ -46,55 +48,14 @@
       <p class="frase">"Advocacia especialista em Direito Ambiental, Empresarial e Tributário com atuação estratégica e comprometida com resultados para empresas e pessoas físicas. "</p>
       <div class="botoes">
         <button class="btn-primary">Conheça nossos serviços</button>
-        <button class="btn-outline">Entre em contato</button>
+        <button class="btn-outline" onclick="window.open('https://wa.me/5531995731374?text=Olá%2C+gostaria+de+agendar+uma+consulta.', '_blank')">Entre em contato</button>
       </div>
     </div>
-
-    <div class="card-areas">
-  <h3>Áreas de Atuação</h3>
-
-  <h4>🌿 Direito Ambiental</h4>
-  <ul>
-    <li>Licenciamento ambiental e regularizações</li>
-    <li>Compensações ambientais e TACs</li>
-    <li>Defesa em ações civis públicas e autos de infração</li>
-    <li>Consultoria preventiva e estratégica para empresas</li>
-    <li>Atuação junto a órgãos ambientais e conselhos (ex: CODEMA, COPAM)</li>
-  </ul>
-
-  <h4>⚖️ Direito Cível</h4>
-  <ul>
-    <li>Contratos civis (compra e venda, prestação de serviços, locações etc.)</li>
-    <li>Responsabilidade civil e reparação de danos</li>
-    <li>Direito das famílias (divórcios, inventários, guarda, alimentos)</li>
-    <li>Defesa do consumidor</li>
-    <li>Demandas indenizatórias</li>
-  </ul>
-
-  <h4>📊 Direito Empresarial</h4>
-  <ul>
-    <li>Constituição e estruturação de empresas (inclusive holdings)</li>
-    <li>Contratos empresariais e comerciais</li>
-    <li>Consultoria para reorganizações societárias</li>
-    <li>Proteção patrimonial e planejamento sucessório empresarial</li>
-    <li>Conflitos entre sócios e dissoluções</li>
-  </ul>
-
-  <h4>⚖️ Direito Tributário</h4>
-  <ul>
-    <li>Planejamento tributário para redução de carga fiscal</li>
-    <li>Consultoria para empresas e pessoas físicas</li>
-    <li>Defesa em execuções fiscais e autuações</li>
-    <li>Revisão de tributos e recuperação de créditos</li>
-    <li>Análise de regimes fiscais e oportunidades legais</li>
-  </ul>
-</div>
-
 </section>
 
 
 
-  <section class="sobre">
+  <section class="sobre" id="sobre">
   <div class="sobre-container">
     <div class="sobre-texto">
       <h2>Sobre Mariana Lima</h2>
@@ -110,20 +71,20 @@
   </div>
 </section>
 
-<section class="areas-destaque">
+<section class="areas-destaque" id="servicos">
   <h2>Áreas de Atuação</h2>
   <p class="sub">Atuação técnica e estratégica nas áreas que exigem precisão, visão e responsabilidade.</p>
   
   <div class="cards-areas">
     <div class="card">
-      <div class="icon">🌿</div>
+      <div class="icon">🌍</div>
       <h3>Direito Ambiental</h3>
       <p>Consultoria e defesa em licenciamento ambiental, compensação e responsabilidade por danos ambientais.</p>
       <a href="#">Saiba mais →</a>
     </div>
     <div class="card">
       <div class="icon">⚖️</div>
-      <h3>Direito Cível</h3>
+      <h3>Direito Civil</h3>
       <p>Atuação em contratos, responsabilidade civil, direito do consumidor e questões familiares.</p>
       <a href="#">Saiba mais →</a>
     </div>
@@ -142,39 +103,45 @@
   </div>
 </section>
 
-<section class="publicacoes">
+<section class="publicacoes" id="publicacoes">
   <div class="publicacoes-container">
-    <h2>Publicações Recentes</h2>
+    <h2>Artigos Autorais</h2>
     <p class="sub">Acompanhe nossos artigos e atualizações sobre temas jurídicos relevantes.</p>
 
     <div class="publicacoes-cards">
       <div class="pub-card">
-        <div class="thumb"></div>
+        <div class="thumb">
+  <img src="images/post12.png" alt="Compliance ambiental">
+</div>
         <div class="conteudo">
-          <span class="categoria">Direito Ambiental · 15 Mai 2025</span>
-          <h3>Licenciamento Ambiental: Novas Regras em 2025</h3>
-          <p>Entenda as principais mudanças nas regras de licenciamento ambiental e como elas afetam empresas e empreendimentos.</p>
-          <a href="#">Ler artigo →</a>
+          <span class="categoria">Direito Empresarial Sustentável · 22 Maio 2025</span>
+          <h3>Compliance ambiental, programas de integridade falaciosos e Greenwashing</h3>
+          <p>Analise do compliance ambiental como ferramenta de valorização ética e sustentável nas empresas. </p>
+          <a href="https://periodicoseletronicos.ufma.br/index.php/revistahumus/article/view/18184/8" target="_blank" rel="noopener">Ler artigo →</a>
         </div>
       </div>
 
       <div class="pub-card">
-        <div class="thumb"></div>
+        <div class="thumb">
+  <img src="images/post2.jpeg" alt="Compliance ambiental">
+</div>
         <div class="conteudo">
-          <span class="categoria">Direito Empresarial · 28 Abr 2025</span>
-          <h3>Proteção de Dados para Pequenas Empresas</h3>
-          <p>Como pequenas e médias empresas podem se adequar às leis de proteção de dados sem grandes investimentos.</p>
-          <a href="#">Ler artigo →</a>
+          <span class="categoria">Direito Ambiental e Planejamento Urbano · 22 Maio 2025</span>
+          <h3>Responsabilidade socioambiental das empresas para a efetivação do planejamento urbano nas cidades</h3>
+          <p>O artigo analisa como a responsabilidade socioambiental empresarial pode fortalecer o planejamento urbano e promover melhorias sociais nas cidades.</p>
+          <a href="https://www.e-publicacoes.uerj.br/rdc/article/view/64751/48783" target="_blank" rel="noopener">Ler artigo →</a>
         </div>
       </div>
 
       <div class="pub-card">
-        <div class="thumb"></div>
+        <div class="thumb">
+  <img src="images/post3.jpeg" alt="Compliance ambiental">
+</div>
         <div class="conteudo">
-          <span class="categoria">Direito Trabalhista · 10 Abr 2025</span>
-          <h3>Home Office: Direitos e Obrigações em 2025</h3>
-          <p>Análise das mais recentes decisões judiciais sobre trabalho remoto e seus impactos para empregados e empregadores.</p>
-          <a href="#">Ler artigo →</a>
+          <span class="categoria">Ética e Biotecnologia · 22 Maio 2025</span>
+          <h3>Análise do julgamento do STF sobre a utilização de células-tronco para fins de pesquisa à luz do pensamento de Jürgen Habermas</h3>
+          <p>O artigo analisa a decisão do STF sobre o uso de células-tronco à luz de Habermas, destacando a tensão entre biotecnologia e dignidade humana frente ao risco de eugenia.</p>
+          <a href="https://site.conpedi.org.br/publicacoes/465g8u3r/345136gj/3InzV2nEY2tBO9o3.pdf" target="_blank" rel="noopener">Ler artigo →</a>
         </div>
       </div>
     </div>
@@ -185,7 +152,7 @@
   </div>
 </section>
 
-<section class="contato">
+<section class="contato" id="contato">
   <div class="contato-box">
     <div class="contato-info">
       <h2>Entre em Contato</h2>
@@ -205,29 +172,29 @@
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-col">
-      <img src="images/logobege.jpeg" alt="Logo" class="footer-logo"/>
+      <img src="images/logotransp.png" alt="Logo" class="footer-logo"/>
       <p class="footer-frase">Estratégia, técnica e propósito na defesa dos seus direitos </p>
-      <p class="footer-oab">OAB/MG 123.456</p>
+      <p class="footer-oab">OAB/MG 205.232</p>
     </div>
 
     <div class="footer-col">
       <h4>Links Rápidos</h4>
       <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Publicações</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#publicacoes">Publicações</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
       <h4>Áreas de Atuação</h4>
       <ul>
-        <li><a href="#">Direito Ambiental</a></li>
-        <li><a href="#">Direito Cível</a></li>
-        <li><a href="#">Direito Empresarial</a></li>
-        <li><a href="#">Direito Tributário</a></li>
+        <li><a href="#servicos">Direito Ambiental</a></li>
+        <li><a href="#servicos">Direito Civil</a></li>
+        <li><a href="#servicos">Direito Empresarial</a></li>
+        <li><a href="#servicos">Direito Tributário</a></li>
       </ul>
     </div>
 
@@ -242,7 +209,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© 2025 Mariana Lima Advogada. Todos os direitos reservados.</p>
+    <p>© 2025 Mariana Lima Advocacia. Todos os direitos reservados.</p>
   </div>
 </footer>
 
