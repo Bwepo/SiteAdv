@@ -1,90 +1,213 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Escritório de Advocacia Exemplo</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mariana Lima - Advogada</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Header -->
-  <header class="header">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <div class="hero-logo">
-      <img src="../SiteAdv/images/logo.png" alt="Logo Pequena">
+<header>
+  <div class="container">
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo Mariana Lima" />
+      <div>
+        <h1>Mariana Lima</h1>
+        <p>ADVOGADA</p>
+      </div>
     </div>
-    <div class="logo">ML Advocacia</div>
-    <nav class="nav">
-      <a href="#">Home</a>
-      <a href="#">Sobre</a>
-      <a href="#">Áreas de Atuação</a>
-      <a href="#">Artigos</a>
-      <a href="#">Contato</a>
+
+    <nav>
+      <ul>
+        <li><a href="#" class="ativo">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Publicações</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
     </nav>
-    <button class="contact-button">Fale Conosco</button>
-  </header>
 
-  <!-- Hero Banner -->
+    <span class="contato1">📞 (31) 99573-1374</span>
+  </div>
+</header>
+
+
   <section class="hero">
-    <img src="../SiteAdv/images/fundo.jpg" alt="Imagem de Advogados" class="hero-image">
-    <div class="hero-content">
-      <h1>Defendendo seus direitos com excelência</h1>
-      <p>Soluções jurídicas personalizadas para você e sua empresa.</p>
-      <p>
-        Contato:   
-  <a href="https://wa.me/5531995731374" target="_blank" style="color: white; text-decoration: none;">
-    <i class="fab fa-whatsapp" style="margin-right: 8px;"></i>(31) 99573-1374
-  </a>
-</p>
+    <div class="hero-text">
+      <h2>Mariana Lima</h2>
+      <p class="subtitulo">Advogada especialista em Direito Ambiental</p>
+      <p class="frase">"Defendendo seus direitos com excelência"</p>
+      <div class="botoes">
+        <button class="btn-primary">Conheça nossos serviços</button>
+        <button class="btn-outline">Entre em contato</button>
+      </div>
+    </div>
 
+    <div class="card-areas">
+      <h3>Áreas de Atuação</h3>
+      <ul>
+        <li><strong>🌿 Direito Ambiental</strong><br><span>Licenciamentos, compensações e proteção ambiental</span></li>
+        <li><strong>⚖️ Direito Cível</strong><br><span>Contratos, responsabilidade civil e família</span></li>
+        <li><strong>🏢 Direito Empresarial</strong><br><span>Contratos empresariais e proteção societária</span></li>
+        <li><strong>📄 Direito Trabalhista</strong><br><span>Assessoria para empresas e trabalhadores</span></li>
+      </ul>
     </div>
   </section>
 
-  <!-- Info Cards -->
-  <section class="info-cards">
-    <div class="card mission">
-      <h2>Nossa Missão</h2>
-      <p>Compromisso com a ética, a justiça e a excelência em resultados.</p>
-    </div>
-    <div class="card areas">
-      <h2>Áreas de Atuação</h2>
-      <p>Direito Civil, Empresarial, Trabalhista, Ambiental e mais.</p>
-    </div>
-    <div class="card contact">
-      <h2>Contato Rápido</h2>
-      <p>Fale conosco para tirar dúvidas ou agendar uma reunião.</p>
-    </div>
-  </section>
 
-  <!-- Latest News -->
-  <section class="latest-news">
-    <h2>Nossos Artigos</h2>
-    <div class="news-cards">
-  <div class="news-card">
-    <h3>Novas tendências no Direito Empresarial</h3>
-    <p>Como a tecnologia vem mudando o cenário jurídico.</p>
-    <a href="artigos/post1.html" class="saiba-mais-button">Saiba Mais</a>
+  <section class="sobre">
+  <div class="sobre-container">
+    <div class="sobre-texto">
+      <h2>Sobre Mariana Lima</h2>
+      <p>Com mais de 10 anos de experiência jurídica, Mariana Lima é especialista em Direito Ambiental e atua também nas áreas Cível, Empresarial e Trabalhista.</p>
+      <p>Formada pela Universidade Federal de Minas Gerais (UFMG), com especialização em Direito Ambiental pela PUC-MG, Mariana conquistou reconhecimento por sua atuação técnica e ética exemplar.</p>
+      <button class="btn-primary">Saiba mais →</button>
+    </div>
+    <div class="sobre-imagem">
+      <img src="images/logo.png" alt="Foto de Mariana Lima" />
+    </div>
   </div>
-  <div class="news-card">
-    <h3>Decisões recentes que impactam seu negócio</h3>
-    <p>Entenda as mudanças e como se proteger.</p>
-    <a href="artigos/post2.html" class="saiba-mais-button">Saiba Mais</a>
-  </div>
-  <div class="news-card">
-    <h3>Advocacia moderna: inovação e tradição</h3>
-    <p>Como equilibramos valores éticos com novas práticas.</p>
-    <a href="artigos/post3.html" class="saiba-mais-button">Saiba Mais</a>
-  </div>
-</div>
-  </section>
+</section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>&copy; 2025 ML Advocacia | Todos os direitos reservados</p>
-    
-  </footer>
+<section class="areas-destaque">
+  <h2>Áreas de Atuação</h2>
+  <p class="sub">Soluções jurídicas personalizadas e eficazes para proteger seus direitos e interesses.</p>
+  
+  <div class="cards-areas">
+    <div class="card">
+      <div class="icon">🌿</div>
+      <h3>Direito Ambiental</h3>
+      <p>Consultoria e defesa em licenciamento ambiental, compensação e responsabilidade por danos ambientais.</p>
+      <a href="#">Saiba mais →</a>
+    </div>
+    <div class="card">
+      <div class="icon">⚖️</div>
+      <h3>Direito Cível</h3>
+      <p>Atuação em contratos, responsabilidade civil, direito do consumidor e questões familiares.</p>
+      <a href="#">Saiba mais →</a>
+    </div>
+    <div class="card">
+      <div class="icon">📊</div>
+      <h3>Direito Empresarial</h3>
+      <p>Assessoria jurídica para empresas, contratos empresariais, propriedade intelectual e direito societário.</p>
+      <a href="#">Saiba mais →</a>
+    </div>
+    <div class="card">
+      <div class="icon">📝</div>
+      <h3>Direito Trabalhista</h3>
+      <p>Representação em causas trabalhistas, assessoria preventiva e consultoria especializada.</p>
+      <a href="#">Saiba mais →</a>
+    </div>
+  </div>
+</section>
+
+<section class="publicacoes">
+  <div class="publicacoes-container">
+    <h2>Publicações Recentes</h2>
+    <p class="sub">Acompanhe nossos artigos e atualizações sobre temas jurídicos relevantes.</p>
+
+    <div class="publicacoes-cards">
+      <div class="pub-card">
+        <div class="thumb"></div>
+        <div class="conteudo">
+          <span class="categoria">Direito Ambiental · 15 Mai 2025</span>
+          <h3>Licenciamento Ambiental: Novas Regras em 2025</h3>
+          <p>Entenda as principais mudanças nas regras de licenciamento ambiental e como elas afetam empresas e empreendimentos.</p>
+          <a href="#">Ler artigo →</a>
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <div class="thumb"></div>
+        <div class="conteudo">
+          <span class="categoria">Direito Empresarial · 28 Abr 2025</span>
+          <h3>Proteção de Dados para Pequenas Empresas</h3>
+          <p>Como pequenas e médias empresas podem se adequar às leis de proteção de dados sem grandes investimentos.</p>
+          <a href="#">Ler artigo →</a>
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <div class="thumb"></div>
+        <div class="conteudo">
+          <span class="categoria">Direito Trabalhista · 10 Abr 2025</span>
+          <h3>Home Office: Direitos e Obrigações em 2025</h3>
+          <p>Análise das mais recentes decisões judiciais sobre trabalho remoto e seus impactos para empregados e empregadores.</p>
+          <a href="#">Ler artigo →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn-vermais">
+      <button class="btn-outline">Ver todas publicações</button>
+    </div>
+  </div>
+</section>
+
+<section class="contato">
+  <div class="contato-box">
+    <div class="contato-info">
+      <h2>Entre em Contato</h2>
+      <p>Entre em contato para uma consulta inicial e descubra como posso ajudar com suas questões jurídicas.</p>
+      <ul>
+        <li>📞 (31) 99573-1374</li>
+        <li>✉️ contato@marianalima.adv.br</li>
+        <li>📍 Av. do Contorno, 5456, Salas 701/702<br>Funcionários, Belo Horizonte - MG</li>
+      </ul>
+    </div>
+    <div class="contato-botao">
+      <button class="btn-primary">Agende uma Consulta</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <img src="images/logo.png" alt="Logo" class="footer-logo"/>
+      <p class="footer-frase">"Defendendo seus direitos com excelência"</p>
+      <p class="footer-oab">OAB/MG 123.456</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Links Rápidos</h4>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Publicações</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Áreas de Atuação</h4>
+      <ul>
+        <li><a href="#">Direito Ambiental</a></li>
+        <li><a href="#">Direito Cível</a></li>
+        <li><a href="#">Direito Empresarial</a></li>
+        <li><a href="#">Direito Trabalhista</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contato</h4>
+      <ul>
+        <li>📞 (31) 99573-1374</li>
+        <li>✉️ contato@marianalima.adv.br</li>
+        <li>📍 Av. do Contorno, 5456, Salas 701/702<br>Funcionários, Belo Horizonte - MG</li>
+      </ul>
+      <button class="btn-outline">Agende uma consulta →</button>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Mariana Lima Advogada. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
 
 </body>
 </html>
