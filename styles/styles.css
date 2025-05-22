@@ -36,7 +36,7 @@ header {
 }
 
 .logo img {
-  height: 35px;
+  height: 50px;
   width: auto;
 }
 
@@ -82,9 +82,29 @@ nav ul li a {
 }
 
 .hero {
-  padding: 60px 20px;
-  text-align: center;
-  position: relative;
+  padding: 80px 20px;
+  background-color: #f9f5ed;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.card-areas {
+  flex: 1;
+  max-width: 500px;
+  margin: 0;
 }
 
 .hero-text h2 {
@@ -158,6 +178,26 @@ nav ul li a {
   font-size: 14px;
   color: #555;
 }
+
+.card-areas h4 {
+  font-size: 18px;
+  margin-top: 25px;
+  color: #7a682b;
+  font-family: 'Playfair Display', serif;
+}
+
+.card-areas ul {
+  list-style-type: '📌 ';
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.card-areas li {
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
 .sobre {
   background-color: #fff;
   padding: 60px 20px;
