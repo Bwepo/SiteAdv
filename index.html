@@ -23,14 +23,16 @@
       </div>
     </div>
 
-    <nav>
-  <ul>
+   <nav class="nav-responsiva">
+  <div class="menu-toggle" id="menu-toggle">
+    ☰
+  </div>
+  <ul id="menu" class="menu-fechado">
     <li><a href="#inicio" class="ativo">Início</a></li>
     <li><a href="#sobre">Sobre</a></li>
     <li><a href="#servicos">Serviços</a></li>
     <li><a href="#publicacoes">Publicações</a></li>
     <li><a href="#contato">Contato</a></li>
-
   </ul>
 </nav>
 
@@ -64,9 +66,9 @@
       <h2>Sobre Mariana Lima</h2>
       <p>Mariana Lima é advogada formada pela Faculdade de Direito da Dom Helder Câmara, com período de mobilidade acadêmica na Universidade do Porto, em Portugal. É mestre em Direito, com pesquisa voltada à responsabilidade socioambiental das empresas.</p>
       <p>Especialista em Direito Ambiental, Tributário e Empresarial, Mariana possui também MBA em Direito Empresarial, Tributário e Ambiental, além de pós-graduação em Advocacia de Empresa. Desenvolveu uma prática jurídica estratégica voltada à assessoria consultiva e contenciosa de empresas, empreendimentos e pessoas físicas, especialmente em demandas complexas que exigem análise multidisciplinar e sensibilidade técnica.</p>
-      <p>Foi presidente da Comissão de Direito Ambiental da OAB Sete Lagoas no biênio 2022–2024, representando a entidade em diversas audiências públicas e articulações institucionais. É também Conselheira do CODEMA (Conselho Municipal de Defesa do Meio Ambiente) nos biênios 2022–2024 e 2025–2027.</p>
+      <p>Foi presidente da Comissão de Direito Ambiental da OAB Sete Lagoas no triênio 2022–2024, representando a entidade em diversas audiências públicas e articulações institucionais. É também Conselheira do CODEMA (Conselho Municipal de Defesa do Meio Ambiente) nos triênios 2022–2024 e 2025–2027.</p>
       <p>Seu trabalho é marcado pelo compromisso com resultados, ética profissional e atuação firme na defesa de direitos fundamentais e coletivos.</p>
-      <a href="sobre/sobre.html" class="btn-primary" style="text-decoration: none;">Saiba mais →</a>
+      <a href="sobre.html" class="btn-primary" style="text-decoration: none;">Saiba mais →</a>
 
     </div>
     <div class="sobre-imagem">
@@ -250,6 +252,18 @@
        class="whatsapp-icon">
 </a>
 
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleBtn = document.getElementById("menu-toggle");
+    const menu = document.getElementById("menu");
+
+    toggleBtn.addEventListener("click", function () {
+      menu.classList.toggle("menu-aberto");
+      menu.classList.toggle("menu-fechado");
+    });
+  });
+</script>
 
 
 <script>
