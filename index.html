@@ -34,6 +34,11 @@
   </ul>
 </nav>
 
+<div class="menu-toggle" id="menu-toggle">
+  &#9776; <!-- ícone de "três barrinhas" -->
+</div>
+
+
     <span class="contato1">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 20px; vertical-align: middle; margin-right: 6px;">
   (31) 99404-8797
@@ -80,25 +85,25 @@
   
   <div class="cards-areas" data-aos="zoom-in">
     <div class="card">
-      <div class="icon">🌍</div>
+      <div class="icon"></div>
       <h3>Direito Ambiental</h3>
       <p>Consultoria e defesa em licenciamento ambiental, compensação e responsabilidade por danos ambientais.</p>
       <a href="#">Saiba mais →</a>
     </div>
     <div class="card">
-      <div class="icon">⚖️</div>
+      <div class="icon"></div>
       <h3>Direito Civil</h3>
       <p>Atuação em contratos, responsabilidade civil, direito do consumidor e questões familiares.</p>
       <a href="#">Saiba mais →</a>
     </div>
     <div class="card">
-      <div class="icon">📊</div>
+      <div class="icon"></div>
       <h3>Direito Empresarial</h3>
       <p>Assessoria jurídica para empresas, contratos empresariais, propriedade intelectual e direito societário.</p>
       <a href="#">Saiba mais →</a>
     </div>
     <div class="card">
-      <div class="icon">📝</div>
+      <div class="icon"></div>
       <h3>Direito Tributário</h3>
       <p>Consultoria e defesa tributária para empresas e pessoas físicas, com foco em economia legal e recuperação de créditos.</p>
       <a href="#">Saiba mais →</a>
@@ -250,6 +255,18 @@
 </a>
 
 
+ <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggleBtn = document.getElementById('menu-toggle');
+    const nav = document.querySelector('nav');
+
+    toggleBtn.addEventListener('click', function () {
+      nav.classList.toggle('active');
+    });
+  });
+</script>
+
+
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
@@ -304,7 +321,7 @@
       });
     });
   });
-</script>
+</script> 
 
 
 
