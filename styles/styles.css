@@ -628,23 +628,29 @@ a.btn-primary:hover {
 
 /* Estilo para celular */
 @media (max-width: 768px) {
-  .nav-responsiva {
-    position: relative;
-  }
-
   .menu-toggle {
     display: block;
     font-size: 28px;
     cursor: pointer;
     color: #7a682b;
     z-index: 1001;
+    position: absolute;
+    right: 20px;
+    top: 20px;
   }
+
+ .nav-responsiva {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
 
   .nav-responsiva ul {
     display: none;
     position: absolute;
-    top: 60px;
-    left: 50%;
+    top: 55px;
+    left: -170px;
     transform: translateX(-50%);
     background: #fff;
     flex-direction: column;
@@ -654,7 +660,6 @@ a.btn-primary:hover {
     border-radius: 8px;
     width: 90vw;
     max-width: 300px;
-    z-index: 1000;
     box-sizing: border-box;
   }
 
@@ -669,5 +674,8 @@ a.btn-primary:hover {
   .contato1 {
     display: none;
   }
-}
 
+  nav ul {
+    flex-direction: column;
+  }
+}

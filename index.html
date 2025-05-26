@@ -23,7 +23,15 @@
       </div>
     </div>
 
-   <nav class="nav-responsiva">
+  
+
+
+    <span class="contato1">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 20px; vertical-align: middle; margin-right: 6px;">
+  (31) 99404-8797
+</span>
+  </div>
+  <nav class="nav-responsiva">
   <div class="menu-toggle" id="menu-toggle">
     ☰
   </div>
@@ -35,13 +43,6 @@
     <li><a href="#contato">Contato</a></li>
   </ul>
 </nav>
-
-
-    <span class="contato1">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 20px; vertical-align: middle; margin-right: 6px;">
-  (31) 99404-8797
-</span>
-  </div>
 </header>
 
 
@@ -257,13 +258,22 @@
   document.addEventListener("DOMContentLoaded", function () {
     const toggleBtn = document.getElementById("menu-toggle");
     const menu = document.getElementById("menu");
+    const links = menu.querySelectorAll("a");
 
     toggleBtn.addEventListener("click", function () {
       menu.classList.toggle("menu-aberto");
       menu.classList.toggle("menu-fechado");
     });
+
+    links.forEach(link => {
+      link.addEventListener("click", function () {
+        menu.classList.remove("menu-aberto");
+        menu.classList.add("menu-fechado");
+      });
+    });
   });
 </script>
+
 
 
 <script>
