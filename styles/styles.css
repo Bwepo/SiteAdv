@@ -634,33 +634,40 @@ a.btn-primary:hover {
 
   .menu-toggle {
     display: block;
+    font-size: 28px;
+    cursor: pointer;
+    color: #7a682b;
+    z-index: 1001;
   }
 
-    .nav-responsiva ul {
+  .nav-responsiva ul {
     display: none;
     position: absolute;
     top: 60px;
-    left: 0;
-    width: 100vw; /* Garante que ocupe toda a largura da viewport */
+    left: 50%;
+    transform: translateX(-50%);
     background: #fff;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 15px 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    width: 90vw;
+    max-width: 300px;
     z-index: 1000;
     box-sizing: border-box;
   }
-
 
   .nav-responsiva ul.menu-aberto {
     display: flex;
   }
 
   .nav-responsiva ul li {
-    margin-bottom: 12px;
+    margin: 10px 0;
   }
 
   .contato1 {
     display: none;
   }
 }
+
