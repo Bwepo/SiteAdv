@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 <header>
@@ -34,7 +36,7 @@
 
     <span class="contato1">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 20px; vertical-align: middle; margin-right: 6px;">
-  (31) 99573-1374
+  (31) 99404-8797
 </span>
   </div>
 </header>
@@ -48,7 +50,7 @@
       <p class="frase">"Advocacia especialista em Direito Ambiental, Empresarial e Tributário com atuação estratégica e comprometida com resultados para empresas e pessoas físicas. "</p>
       <div class="botoes">
         <button class="btn-primary">Conheça nossos serviços</button>
-        <button class="btn-outline" onclick="window.open('https://wa.me/5531995731374?text=Olá%2C+gostaria+de+agendar+uma+consulta.', '_blank')">Entre em contato</button>
+        <button class="btn-outline" onclick="window.open('https://wa.me/5531994048797?text=Olá%2C+gostaria+de+agendar+uma+consulta.', '_blank')">Entre em contato</button>
       </div>
     </div>
 </section>
@@ -56,14 +58,15 @@
 
 
   <section class="sobre" id="sobre">
-  <div class="sobre-container">
+  <div class="sobre-container" data-aos="fade-up">
     <div class="sobre-texto">
       <h2>Sobre Mariana Lima</h2>
       <p>Mariana Lima é advogada formada pela Faculdade de Direito da Dom Helder Câmara, com período de mobilidade acadêmica na Universidade do Porto, em Portugal. É mestre em Direito, com pesquisa voltada à responsabilidade socioambiental das empresas.</p>
       <p>Especialista em Direito Ambiental, Tributário e Empresarial, Mariana possui também MBA em Direito Empresarial, Tributário e Ambiental, além de pós-graduação em Advocacia de Empresa. Desenvolveu uma prática jurídica estratégica voltada à assessoria consultiva e contenciosa de empresas, empreendimentos e pessoas físicas, especialmente em demandas complexas que exigem análise multidisciplinar e sensibilidade técnica.</p>
       <p>Foi presidente da Comissão de Direito Ambiental da OAB Sete Lagoas no biênio 2022–2024, representando a entidade em diversas audiências públicas e articulações institucionais. É também Conselheira do CODEMA (Conselho Municipal de Defesa do Meio Ambiente) nos biênios 2022–2024 e 2025–2027.</p>
       <p>Seu trabalho é marcado pelo compromisso com resultados, ética profissional e atuação firme na defesa de direitos fundamentais e coletivos.</p>
-      <button class="btn-primary">Saiba mais →</button>
+      <a href="sobre.html" class="btn-primary" style="text-decoration: none;">Saiba mais →</a>
+
     </div>
     <div class="sobre-imagem">
       <img src="images/fotocirculo2.jpeg" alt="Foto de Mariana Lima" />
@@ -75,7 +78,7 @@
   <h2>Áreas de Atuação</h2>
   <p class="sub">Atuação técnica e estratégica nas áreas que exigem precisão, visão e responsabilidade.</p>
   
-  <div class="cards-areas">
+  <div class="cards-areas" data-aos="zoom-in">
     <div class="card">
       <div class="icon">🌍</div>
       <h3>Direito Ambiental</h3>
@@ -109,7 +112,7 @@
     <p class="sub">Acompanhe nossos artigos e atualizações sobre temas jurídicos relevantes.</p>
 
     <div class="publicacoes-cards">
-      <div class="pub-card">
+      <div class="pub-card" data-aos="fade-up">
         <div class="thumb">
   <img src="images/post12.png" alt="Compliance ambiental">
 </div>
@@ -121,7 +124,7 @@
         </div>
       </div>
 
-      <div class="pub-card">
+      <div class="pub-card"data-aos="fade-up">
         <div class="thumb">
   <img src="images/post2.jpeg" alt="Compliance ambiental">
 </div>
@@ -133,7 +136,7 @@
         </div>
       </div>
 
-      <div class="pub-card">
+      <div class="pub-card"data-aos="fade-up">  
         <div class="thumb">
   <img src="images/post3.jpeg" alt="Compliance ambiental">
 </div>
@@ -146,19 +149,27 @@
       </div>
     </div>
 
+
+   <div class="extra-publicacoes" style="display: none; text-align: center;">
+  <p style="color: #777; font-size: 15px; margin-top: 10px;">
+    Novas publicações serão adicionadas em breve. Acompanhe nossas atualizações!
+  </p>
+</div>
+
+
     <div class="btn-vermais">
-      <button class="btn-outline">Ver todas publicações</button>
-    </div>
+  <button class="btn-outline" id="toggle-publicacoes">Ver todas publicações</button>
+</div>
   </div>
 </section>
 
-<section class="contato" id="contato">
+<section class="contato" id="contato" data-aos="fade-up">
   <div class="contato-box">
     <div class="contato-info">
       <h2>Entre em Contato</h2>
       <p>Entre em contato e transforme dúvidas jurídicas em decisões seguras e estratégicas</p>
       <ul>
-        <li>📞 (31) 99573-1374</li>
+        <li>📞 (31) 99404-8797</li>
         <li>✉️ contato@marianalima.adv.br</li>
         <li>📍 Rua Hugo Santos Silva, nº 100<br>Centro, Sete Lagoas - MG</li>
       </ul>
@@ -201,9 +212,17 @@
     <div class="footer-col">
       <h4>Contato</h4>
       <ul>
-        <li>📞 (31) 99573-1374</li>
+        <li>📞 (31) 99404-8797</li>
         <li>✉️ contato@marianalima.adv.br</li>
-        <li>📍 Rua Hugo Santos Silva, nº 100<br>Centro, Sete Lagoas - MG</li>
+        <li>
+  📍 
+  <a href="https://www.google.com/maps?q=Rua+Hugo+Santos+Silva,+100,+Sete+Lagoas,+MG" 
+     target="_blank" 
+     rel="noopener" 
+     style="color: inherit; text-decoration: underline;">
+    Rua Hugo Santos Silva, nº 100<br>Centro, Sete Lagoas - MG
+  </a>
+</li>
       </ul>
       <button class="btn-outline">Agende uma consulta →</button>
     </div>
@@ -211,7 +230,91 @@
   <div class="footer-bottom">
     <p>© 2025 Mariana Lima Advocacia. Todos os direitos reservados.</p>
   </div>
+
+
+<div class="footer-col">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.8452339381643!2d-44.25181162399512!3d-19.462238423914727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa65075bf0ebd0f%3A0xe26f4fb81cd2e86!2sR.%20Hugo%20Santos%20Silva%2C%20100%20-%20Centro%2C%20Sete%20Lagoas%20-%20MG%2C%2035700-052!5e0!3m2!1spt-BR!2sbr!4v1748141084230!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+  
 </footer>
+
+
+<a href="https://wa.me/5531994048797" 
+   class="whatsapp-button" 
+   target="_blank" 
+   rel="noopener" 
+   aria-label="Converse conosco no WhatsApp">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+       alt="WhatsApp" 
+       class="whatsapp-icon">
+</a>
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggleBtn = document.getElementById('toggle-publicacoes');
+    const extra = document.querySelector('.extra-publicacoes');
+
+    if (!extra) {
+      // Se não houver publicações extras, remove o botão
+      if (toggleBtn) {
+        toggleBtn.style.display = 'none';
+      }
+      return;
+    }
+
+    toggleBtn.addEventListener('click', function () {
+      const isHidden = extra.style.display === 'none';
+      extra.style.display = isHidden ? 'grid' : 'none';
+      toggleBtn.textContent = isHidden ? 'Mostrar menos' : 'Ver todas publicações';
+    });
+  });
+</script>
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('nav ul li a');
+
+    links.forEach(link => {
+      link.addEventListener('click', function () {
+        links.forEach(l => l.classList.remove('ativo'));
+        this.classList.add('ativo');
+      });
+    });
+
+    window.addEventListener('scroll', () => {
+      const sections = document.querySelectorAll('section[id]');
+      let scrollPos = window.scrollY + 100;
+
+      sections.forEach(section => {
+        if (
+          scrollPos >= section.offsetTop &&
+          scrollPos < section.offsetTop + section.offsetHeight
+        ) {
+          links.forEach(link => {
+            link.classList.remove('ativo');
+            if (link.getAttribute('href') === `#${section.id}`) {
+              link.classList.add('ativo');
+            }
+          });
+        }
+      });
+    });
+  });
+</script>
+
+
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // duração da animação em ms
+    once: true,     // anima só uma vez ao entrar na tela
+  });
+</script>
 
 
 </body>
