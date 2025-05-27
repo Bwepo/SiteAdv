@@ -650,7 +650,7 @@ a.btn-primary:hover {
     display: none;
     position: absolute;
     top: 55px;
-    left: -170px;
+    left: -130px;
     transform: translateX(-50%);
     background: #fff;
     flex-direction: column;
@@ -659,7 +659,7 @@ a.btn-primary:hover {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     border-radius: 8px;
     width: 90vw;
-    max-width: 300px;
+    max-width: 170px;
     box-sizing: border-box;
   }
 
