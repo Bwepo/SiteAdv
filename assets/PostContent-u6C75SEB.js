@@ -1,0 +1,6 @@
+import{a as r,j as s,c as t}from"./index-rGXuuAVG.js";/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const d=r("Link",[["path",{d:"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71",key:"1cjeqo"}],["path",{d:"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71",key:"19qd67"}]]);function n({html:e,className:o}){return s.jsx("div",{className:t("prose prose-lg max-w-none","prose-headings:font-serif prose-headings:text-foreground","prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-xl","prose-p:text-foreground/90 prose-p:leading-relaxed","prose-a:text-primary prose-a:no-underline hover:prose-a:underline","prose-li:text-foreground/90","prose-ul:list-disc prose-ol:list-decimal","prose-blockquote:border-l-4 prose-blockquote:border-primary/50","prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-muted-foreground","prose-code:bg-muted prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded","prose-pre:bg-muted prose-pre:border prose-pre:border-border","prose-img:rounded-lg prose-img:shadow-md","prose-strong:text-foreground prose-strong:font-semibold","dark:prose-invert",o),dangerouslySetInnerHTML:{__html:e}})}export{d as L,n as P};
