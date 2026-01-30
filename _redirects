@@ -1,3 +1,1 @@
-/og/default.jpg   /og/default.jpg   200
-/og/:slug.jpg   /.netlify/functions/og-image?slug=:slug   200
 /*    /index.html   200
