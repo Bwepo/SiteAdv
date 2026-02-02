@@ -1,1 +1,0 @@
-const n="https://marianalima.adv.br",r="/og-image.png";function h(t,s=n){return t?t.startsWith("http://")||t.startsWith("https://")?t:t.startsWith("//")?`https:${t}`:`${s}${t.startsWith("/")?"":"/"}${t}`:`${s}${r}`}export{r as D,h as r};
