@@ -1,1 +1,0 @@
-const r="https://marianalima.adv.br",n="/logo-horizontal.jpg";function h(t,s=r){return t?t.startsWith("http://")||t.startsWith("https://")?t:t.startsWith("//")?`https:${t}`:`${s}${t.startsWith("/")?"":"/"}${t}`:`${s}${n}`}export{n as D,h as r};
