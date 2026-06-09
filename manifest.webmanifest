@@ -1,0 +1,16 @@
+{
+  "name": "Mariana Lima Advocacia — Painel",
+  "short_name": "ML Advocacia",
+  "description": "Painel administrativo do escritório Mariana Lima Advocacia.",
+  "start_url": "/admin",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1a2420",
+  "theme_color": "#1a2420",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/favicon.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/favicon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
